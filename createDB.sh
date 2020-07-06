@@ -3,7 +3,8 @@
 USER=$IG_USER
 DATABASE=$IG_DATABASE
 HOST=$PG_HOST
-PW=`cat $IG_PASSWD_FILE`
+PWFILE=$IG_PASSWD_FILE
+PW=`cat $PWFILE`
 
 echo Building users table
 
